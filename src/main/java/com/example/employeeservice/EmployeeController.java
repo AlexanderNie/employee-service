@@ -15,7 +15,7 @@ public class EmployeeController {
 
     private final List<Map<String, Object>> employees = List.of(
         Map.of("id", 1, "name", "Alex", "department", "IT"),
-        Map.of("id", 2, "name", "Mary", "department", "HR")
+        Map.of("id", 2, "name", "Carrie", "department", "HR")
     );
 
     @GetMapping
