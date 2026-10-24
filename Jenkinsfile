@@ -5,10 +5,6 @@ pipeline {
     environment {
         IMAGE_NAME = 'alexnie/employee-service'
     }
-	
-	triggers {
-        cron('H/2 * * * *')
-    }
 
     stages {
         stage('Checkout') {
